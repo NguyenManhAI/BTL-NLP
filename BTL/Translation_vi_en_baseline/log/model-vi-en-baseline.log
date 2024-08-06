@@ -1,0 +1,273 @@
+9.6s 1 Collecting sacrebleu
+9.7s 2 Downloading sacrebleu-2.4.2-py3-none-any.whl.metadata (58 kB)
+9.8s 3 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/58.0 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m41.0/58.0 kB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m58.0/58.0 kB[0m [31m926.1 kB/s[0m eta [36m0:00:00[0m
+9.9s 4 [?25hCollecting portalocker (from sacrebleu)
+9.9s 5 Downloading portalocker-2.10.1-py3-none-any.whl.metadata (8.5 kB)
+9.9s 6 Requirement already satisfied: regex in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (2023.12.25)
+9.9s 7 Requirement already satisfied: tabulate>=0.8.9 in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (0.9.0)
+9.9s 8 Requirement already satisfied: numpy>=1.17 in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (1.26.4)
+9.9s 9 Requirement already satisfied: colorama in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (0.4.6)
+9.9s 10 Requirement already satisfied: lxml in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (5.2.2)
+10.0s 11 Downloading sacrebleu-2.4.2-py3-none-any.whl (106 kB)
+10.0s 12 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/106.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━[0m [32m81.9/106.7 kB[0m [31m2.3 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m106.7/106.7 kB[0m [31m1.9 MB/s[0m eta [36m0:00:00[0m
+10.1s 13 [?25hDownloading portalocker-2.10.1-py3-none-any.whl (18 kB)
+20.9s 14 Installing collected packages: portalocker, sacrebleu
+21.2s 15 Successfully installed portalocker-2.10.1 sacrebleu-2.4.2
+22.4s 16 Collecting rouge-score
+22.5s 17 Downloading rouge_score-0.1.2.tar.gz (17 kB)
+23.6s 18 Preparing metadata (setup.py) ... [?25l- done
+23.6s 19 [?25hRequirement already satisfied: absl-py in /opt/conda/lib/python3.10/site-packages (from rouge-score) (1.4.0)
+23.6s 20 Requirement already satisfied: nltk in /opt/conda/lib/python3.10/site-packages (from rouge-score) (3.2.4)
+23.6s 21 Requirement already satisfied: numpy in /opt/conda/lib/python3.10/site-packages (from rouge-score) (1.26.4)
+23.6s 22 Requirement already satisfied: six>=1.14.0 in /opt/conda/lib/python3.10/site-packages (from rouge-score) (1.16.0)
+23.6s 23 Building wheels for collected packages: rouge-score
+25.0s 24 Building wheel for rouge-score (setup.py) ... [?25l- \ done
+25.0s 25 [?25h  Created wheel for rouge-score: filename=rouge_score-0.1.2-py3-none-any.whl size=24934 sha256=3d71c128b31f3c60de3876d6dacad5990c89e8b8d38327d566d012100f87e497
+25.0s 26 Stored in directory: /root/.cache/pip/wheels/5f/dd/89/461065a73be61a532ff8599a28e9beef17985c9e9c31e541b4
+25.0s 27 Successfully built rouge-score
+35.0s 28 Installing collected packages: rouge-score
+35.2s 29 Successfully installed rouge-score-0.1.2
+35.5s 30 Note: you may need to restart the kernel to use updated packages.
+44.1s 31 2024-08-06 03:37:45.556306: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+44.1s 32 2024-08-06 03:37:45.556419: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+44.1s 33 2024-08-06 03:37:45.736174: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+44.3s 34 2024-08-06 03:37:45.556306: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+44.3s 35 2024-08-06 03:37:45.556419: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+44.3s 36 2024-08-06 03:37:45.736174: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+62.6s 37 /opt/conda/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:4016: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+62.6s 38 warnings.warn(
+88.7s 39 [34m[1mwandb[0m: W&B API key is configured. Use [1m`wandb login --relogin`[0m to force relogin
+88.7s 40 [34m[1mwandb[0m: [33mWARNING[0m If you're specifying your api key in code, ensure this code is not shared publicly.
+88.7s 41 [34m[1mwandb[0m: [33mWARNING[0m Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+88.7s 42 [34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /root/.netrc
+88.9s 43 /opt/conda/lib/python3.10/site-packages/transformers/training_args.py:1494: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+88.9s 44 warnings.warn(
+90.2s 45 [34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+90.2s 46 [34m[1mwandb[0m: Currently logged in as: [33mlananhmtms1[0m ([33mlananhmtms1-mtms1[0m). Use [1m`wandb login --relogin`[0m to force relogin
+105.5s 47 [34m[1mwandb[0m: wandb version 0.17.5 is available!  To upgrade, please run:
+105.5s 48 [34m[1mwandb[0m:  $ pip install wandb --upgrade
+105.5s 49 [34m[1mwandb[0m: Tracking run with wandb version 0.17.4
+105.5s 50 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240806_033832-mrv1507q[0m
+105.5s 51 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+105.5s 52 [34m[1mwandb[0m: Syncing run [33m./results-vi-en-base[0m
+105.5s 53 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/lananhmtms1-mtms1/huggingface[0m
+105.5s 54 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/lananhmtms1-mtms1/huggingface/runs/mrv1507q[0m
+108.4s 55 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+108.4s 56 warnings.warn('Was asked to gather along dimension 0, but all '
+294.2s 57 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+294.2s 58 warnings.warn('Was asked to gather along dimension 0, but all '
+452.7s 59 Translated: And I think that if I'm a apologist, I'm going to be a pragmatologist.
+485.2s 60 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+485.2s 61 warnings.warn('Was asked to gather along dimension 0, but all '
+675.7s 62 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+675.7s 63 warnings.warn('Was asked to gather along dimension 0, but all '
+834.9s 64 Translated: I mean, if you're going to be able to do that, you're going to be able to do that.
+868.9s 65 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+868.9s 66 warnings.warn('Was asked to gather along dimension 0, but all '
+1062.6s 67 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+1062.6s 68 warnings.warn('Was asked to gather along dimension 0, but all '
+1223.5s 69 Translated: And I'm not going to be a sexy, but I'm going to say, that's a sexy, a sexy, a
+1257.7s 70 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+1257.7s 71 warnings.warn('Was asked to gather along dimension 0, but all '
+1452.4s 72 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+1452.4s 73 warnings.warn('Was asked to gather along dimension 0, but all '
+1612.1s 74 Translated: We have a lot of people who are able to do it and we can do it.
+1647.4s 75 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+1647.4s 76 warnings.warn('Was asked to gather along dimension 0, but all '
+1843.2s 77 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+1843.2s 78 warnings.warn('Was asked to gather along dimension 0, but all '
+2003.5s 79 Translated: We're talking about the sex and the sex and the sex, and we're going to talk about the sex and the sex.
+2037.8s 80 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+2037.8s 81 warnings.warn('Was asked to gather along dimension 0, but all '
+2233.2s 82 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+2233.2s 83 warnings.warn('Was asked to gather along dimension 0, but all '
+2394.4s 84 Translated: I'm a sluggish and slamish, and I'm a sluggish slam.
+2429.1s 85 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+2429.1s 86 warnings.warn('Was asked to gather along dimension 0, but all '
+2626.0s 87 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+2626.0s 88 warnings.warn('Was asked to gather along dimension 0, but all '
+2787.2s 89 Translated: We are a little bit of a symphony and a symphony, which is a very good way to get the symphony to be able to do that
+2823.7s 90 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+2823.7s 91 warnings.warn('Was asked to gather along dimension 0, but all '
+3021.2s 92 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+3021.2s 93 warnings.warn('Was asked to gather along dimension 0, but all '
+3183.3s 94 Translated: We are the ones that are going to be able to do this and do it, it's a way to make the world more accessible.
+3218.9s 95 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+3218.9s 96 warnings.warn('Was asked to gather along dimension 0, but all '
+3416.2s 97 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+3416.2s 98 warnings.warn('Was asked to gather along dimension 0, but all '
+3578.6s 99 Translated: We're the symphony and the symboly and the symboly, that's how it's a symphony.
+3614.9s 100 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+3614.9s 101 warnings.warn('Was asked to gather along dimension 0, but all '
+3812.5s 102 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+3812.5s 103 warnings.warn('Was asked to gather along dimension 0, but all '
+3974.5s 104 Translated: I mean, the sex is a bit more, and it's more of a sex, and it's more of a sex than the sex.
+4011.7s 105 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+4011.7s 106 warnings.warn('Was asked to gather along dimension 0, but all '
+4209.2s 107 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+4209.2s 108 warnings.warn('Was asked to gather along dimension 0, but all '
+4371.8s 109 Translated: We're the people who are able to eat and eat and eat and drink and they're going to be able to eat.
+4407.4s 110 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+4407.4s 111 warnings.warn('Was asked to gather along dimension 0, but all '
+4605.9s 112 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+4605.9s 113 warnings.warn('Was asked to gather along dimension 0, but all '
+4767.7s 114 Translated: We are the people who are able to do this and tell them that they're going to be able to do this.
+4804.1s 115 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+4804.1s 116 warnings.warn('Was asked to gather along dimension 0, but all '
+5002.3s 117 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+5002.3s 118 warnings.warn('Was asked to gather along dimension 0, but all '
+5163.9s 119 Translated: We're a bit more awaited and a little bit more awaited, but we're a little more awaited, and we're a little more awaited,
+5200.8s 120 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+5200.8s 121 warnings.warn('Was asked to gather along dimension 0, but all '
+5400.4s 122 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+5400.4s 123 warnings.warn('Was asked to gather along dimension 0, but all '
+5562.2s 124 Translated: We are the syroscopic and he's showing you, it's a very simple way to make a difference.
+5599.0s 125 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+5599.0s 126 warnings.warn('Was asked to gather along dimension 0, but all '
+5796.8s 127 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+5796.8s 128 warnings.warn('Was asked to gather along dimension 0, but all '
+5958.6s 129 Translated: We are a lot of sexy and sexy, but it's not a lot of sexy.
+5994.7s 130 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+5994.7s 131 warnings.warn('Was asked to gather along dimension 0, but all '
+6191.8s 132 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+6191.8s 133 warnings.warn('Was asked to gather along dimension 0, but all '
+6353.9s 134 Translated: We are the ones that are a bit more than a little bit more and a little bit more than a little bit more.
+6390.5s 135 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+6390.5s 136 warnings.warn('Was asked to gather along dimension 0, but all '
+6590.2s 137 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+6590.2s 138 warnings.warn('Was asked to gather along dimension 0, but all '
+6753.5s 139 Translated: We are a team of sex and sex, and we're going to have to make sure that the sex is a sex.
+6789.2s 140 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+6789.2s 141 warnings.warn('Was asked to gather along dimension 0, but all '
+6988.2s 142 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+6988.2s 143 warnings.warn('Was asked to gather along dimension 0, but all '
+7150.8s 144 Translated: We're a lot of sex, and he's a little bit sucked away, so that's not a lot of sex.
+7186.4s 145 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+7186.4s 146 warnings.warn('Was asked to gather along dimension 0, but all '
+7385.9s 147 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+7385.9s 148 warnings.warn('Was asked to gather along dimension 0, but all '
+7549.1s 149 Translated: We are a kind of a sexy, and we're a little more sexy, and we're a little more sexy.
+7585.0s 150 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+7585.0s 151 warnings.warn('Was asked to gather along dimension 0, but all '
+7782.6s 152 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+7782.6s 153 warnings.warn('Was asked to gather along dimension 0, but all '
+7944.9s 154 Translated: We're all a little bit, and we're all a little bit, but it's a little bit a little bit sluggish, and it's a
+7981.1s 155 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+7981.1s 156 warnings.warn('Was asked to gather along dimension 0, but all '
+8181.5s 157 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+8181.5s 158 warnings.warn('Was asked to gather along dimension 0, but all '
+8344.3s 159 Translated: We're all of the sexy and sexy, and you're going to be able to make the sexy, sexy, and that's why we
+8380.4s 160 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+8380.4s 161 warnings.warn('Was asked to gather along dimension 0, but all '
+8580.7s 162 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+8580.7s 163 warnings.warn('Was asked to gather along dimension 0, but all '
+8744.6s 164 Translated: We were the only people who were interested in and who were interested in that, that they were not afraid to be a part of the society.
+8780.1s 165 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+8780.1s 166 warnings.warn('Was asked to gather along dimension 0, but all '
+8978.9s 167 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+8978.9s 168 warnings.warn('Was asked to gather along dimension 0, but all '
+9142.8s 169 Translated: We're all the sandboxes and he's, and that's why we're going to be able to make the world a better place.
+9179.6s 170 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+9179.6s 171 warnings.warn('Was asked to gather along dimension 0, but all '
+9378.1s 172 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+9378.1s 173 warnings.warn('Was asked to gather along dimension 0, but all '
+9541.9s 174 Translated: We're a bunch of sandbags and he's doing that, and that's a very important thing to do.
+9578.0s 175 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+9578.0s 176 warnings.warn('Was asked to gather along dimension 0, but all '
+9777.2s 177 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+9777.2s 178 warnings.warn('Was asked to gather along dimension 0, but all '
+9939.5s 179 Translated: We're just the sex and the way you see, so that the brain is not going to be a human.
+9975.6s 180 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+9975.6s 181 warnings.warn('Was asked to gather along dimension 0, but all '
+10174.1s 182 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+10174.1s 183 warnings.warn('Was asked to gather along dimension 0, but all '
+10336.1s 184 Translated: We are the sexy, and he's a sexier, and that's the best way to get a good sex.
+10371.7s 185 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+10371.7s 186 warnings.warn('Was asked to gather along dimension 0, but all '
+10569.8s 187 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+10569.8s 188 warnings.warn('Was asked to gather along dimension 0, but all '
+10732.4s 189 Translated: We're the ones that are sanding and sanding and letting him go, which are the most important things in the world.
+10769.0s 190 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+10769.0s 191 warnings.warn('Was asked to gather along dimension 0, but all '
+10966.2s 192 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+10966.2s 193 warnings.warn('Was asked to gather along dimension 0, but all '
+11128.5s 194 Translated: We're the only bifths and he's doing this, and that's the most important part of the equation.
+11164.4s 195 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+11164.4s 196 warnings.warn('Was asked to gather along dimension 0, but all '
+11363.5s 197 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+11363.5s 198 warnings.warn('Was asked to gather along dimension 0, but all '
+11526.1s 199 Translated: We're the people who've been there and he's here, and that's what we've done for our clients.
+11562.4s 200 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+11562.4s 201 warnings.warn('Was asked to gather along dimension 0, but all '
+11759.5s 202 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+11759.5s 203 warnings.warn('Was asked to gather along dimension 0, but all '
+11922.0s 204 Translated: We are a bunch of sandbags and he's doing it. We're a bunch of sandbags and sandbags.
+11957.5s 205 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+11957.5s 206 warnings.warn('Was asked to gather along dimension 0, but all '
+12154.4s 207 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+12154.4s 208 warnings.warn('Was asked to gather along dimension 0, but all '
+12316.8s 209 Translated: We're the people who've been doing this, and we're going to be able to do this.
+12352.2s 210 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+12352.2s 211 warnings.warn('Was asked to gather along dimension 0, but all '
+12550.1s 212 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+12550.1s 213 warnings.warn('Was asked to gather along dimension 0, but all '
+12713.1s 214 Translated: We're the syringes that he's been able to see, and that's a very good way to see the syringes that he's
+12748.7s 215 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+12748.7s 216 warnings.warn('Was asked to gather along dimension 0, but all '
+12946.4s 217 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+12946.4s 218 warnings.warn('Was asked to gather along dimension 0, but all '
+13108.5s 219 Translated: We are the sexy and the sexy, and he's doing that, so that the sex of the sexy is a very, very important part of the world
+13144.8s 220 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+13144.8s 221 warnings.warn('Was asked to gather along dimension 0, but all '
+13342.4s 222 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+13342.4s 223 warnings.warn('Was asked to gather along dimension 0, but all '
+13504.7s 224 Translated: We're the ones who've got the power and the power to do that, which are the most important things to do.
+13540.8s 225 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+13540.8s 226 warnings.warn('Was asked to gather along dimension 0, but all '
+13737.9s 227 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+13737.9s 228 warnings.warn('Was asked to gather along dimension 0, but all '
+13899.2s 229 Translated: We're a team of scientists and we're able to figure out how to make a better decision.
+13935.2s 230 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+13935.2s 231 warnings.warn('Was asked to gather along dimension 0, but all '
+14131.6s 232 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+14131.6s 233 warnings.warn('Was asked to gather along dimension 0, but all '
+14293.5s 234 Translated: We are the sex that you're going to be, and you're going to be able to do that.
+14329.0s 235 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+14329.0s 236 warnings.warn('Was asked to gather along dimension 0, but all '
+14526.6s 237 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+14526.6s 238 warnings.warn('Was asked to gather along dimension 0, but all '
+14688.8s 239 Translated: We're the ones that's going to be, and he's going to be able to do that.
+14724.9s 240 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+14724.9s 241 warnings.warn('Was asked to gather along dimension 0, but all '
+14922.3s 242 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+14922.3s 243 warnings.warn('Was asked to gather along dimension 0, but all '
+15084.1s 244 Translated: We were the people who've been a little bit, and he was so, so he was a little bit a bit, but he was a little bit, and he was
+15120.0s 245 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+15120.0s 246 warnings.warn('Was asked to gather along dimension 0, but all '
+15317.2s 247 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+15317.2s 248 warnings.warn('Was asked to gather along dimension 0, but all '
+15479.1s 249 Translated: We are a bunch of sex and sex, and that is why we're not able to make a difference.
+15514.6s 250 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+15514.6s 251 warnings.warn('Was asked to gather along dimension 0, but all '
+15712.1s 252 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+15712.1s 253 warnings.warn('Was asked to gather along dimension 0, but all '
+15874.2s 254 Translated: We're a group of people who are able to do this, do this by allowing them to do the same thing.
+15909.9s 255 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+15909.9s 256 warnings.warn('Was asked to gather along dimension 0, but all '
+16107.7s 257 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+16107.7s 258 warnings.warn('Was asked to gather along dimension 0, but all '
+16270.6s 259 Translated: We are a group of scientists and we've seen that this is a re-engineering of the brain.
+16306.1s 260 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+16306.1s 261 warnings.warn('Was asked to gather along dimension 0, but all '
+16504.3s 262 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+16504.3s 263 warnings.warn('Was asked to gather along dimension 0, but all '
+16554.8s 264 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+16554.8s 265 warn(
+16554.8s 266 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+16554.8s 267 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+16555.3s 268 [NbConvertApp] Writing 201642 bytes to __notebook__.ipynb
+16556.9s 269 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+16556.9s 270 warn(
+16556.9s 271 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+16557.0s 272 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+16558.0s 273 [NbConvertApp] Writing 458182 bytes to __results__.html

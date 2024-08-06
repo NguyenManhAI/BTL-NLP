@@ -1,0 +1,445 @@
+8.1s 1 Collecting sacrebleu
+8.2s 2 Downloading sacrebleu-2.4.2-py3-none-any.whl.metadata (58 kB)
+8.2s 3 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/58.0 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m58.0/58.0 kB[0m [31m3.9 MB/s[0m eta [36m0:00:00[0m
+8.2s 4 [?25hCollecting portalocker (from sacrebleu)
+8.2s 5 Downloading portalocker-2.10.1-py3-none-any.whl.metadata (8.5 kB)
+8.3s 6 Requirement already satisfied: regex in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (2023.12.25)
+8.3s 7 Requirement already satisfied: tabulate>=0.8.9 in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (0.9.0)
+8.3s 8 Requirement already satisfied: numpy>=1.17 in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (1.26.4)
+8.3s 9 Requirement already satisfied: colorama in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (0.4.6)
+8.3s 10 Requirement already satisfied: lxml in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (5.2.2)
+8.3s 11 Downloading sacrebleu-2.4.2-py3-none-any.whl (106 kB)
+8.3s 12 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/106.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m106.7/106.7 kB[0m [31m7.7 MB/s[0m eta [36m0:00:00[0m
+8.3s 13 [?25hDownloading portalocker-2.10.1-py3-none-any.whl (18 kB)
+18.8s 14 Installing collected packages: portalocker, sacrebleu
+19.1s 15 Successfully installed portalocker-2.10.1 sacrebleu-2.4.2
+20.2s 16 Collecting rouge-score
+20.3s 17 Downloading rouge_score-0.1.2.tar.gz (17 kB)
+21.3s 18 Preparing metadata (setup.py) ... [?25l- done
+21.3s 19 [?25hRequirement already satisfied: absl-py in /opt/conda/lib/python3.10/site-packages (from rouge-score) (1.4.0)
+21.3s 20 Requirement already satisfied: nltk in /opt/conda/lib/python3.10/site-packages (from rouge-score) (3.2.4)
+21.3s 21 Requirement already satisfied: numpy in /opt/conda/lib/python3.10/site-packages (from rouge-score) (1.26.4)
+21.3s 22 Requirement already satisfied: six>=1.14.0 in /opt/conda/lib/python3.10/site-packages (from rouge-score) (1.16.0)
+21.3s 23 Building wheels for collected packages: rouge-score
+22.7s 24 Building wheel for rouge-score (setup.py) ... [?25l- \ done
+22.7s 25 [?25h  Created wheel for rouge-score: filename=rouge_score-0.1.2-py3-none-any.whl size=24934 sha256=33cef78cf4d499c2e86605775b648e5d90bd668a912195b52b03c3d196cb4e10
+22.7s 26 Stored in directory: /root/.cache/pip/wheels/5f/dd/89/461065a73be61a532ff8599a28e9beef17985c9e9c31e541b4
+22.7s 27 Successfully built rouge-score
+32.6s 28 Installing collected packages: rouge-score
+32.9s 29 Successfully installed rouge-score-0.1.2
+33.2s 30 Note: you may need to restart the kernel to use updated packages.
+40.1s 31 2024-08-05 06:18:30.760235: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+40.1s 32 2024-08-05 06:18:30.760332: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+40.1s 33 2024-08-05 06:18:30.882476: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+40.3s 34 2024-08-05 06:18:30.760235: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+40.3s 35 2024-08-05 06:18:30.760332: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+40.3s 36 2024-08-05 06:18:30.882476: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+54.8s 37 /opt/conda/lib/python3.10/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+54.8s 38 return self.fget.__get__(instance, owner)()
+58.6s 39 /opt/conda/lib/python3.10/site-packages/transformers/models/marian/tokenization_marian.py:175: UserWarning: Recommended: pip install sacremoses.
+58.6s 40 warnings.warn("Recommended: pip install sacremoses.")
+60.3s 41 /opt/conda/lib/python3.10/site-packages/transformers/tokenization_utils_base.py:4016: UserWarning: `as_target_tokenizer` is deprecated and will be removed in v5 of Transformers. You can tokenize your labels by using the argument `text_target` of the regular `__call__` method (either in the same call as your input texts if you use the same keyword arguments, or in a separate call.
+60.3s 42 warnings.warn(
+113.7s 43 [34m[1mwandb[0m: W&B API key is configured. Use [1m`wandb login --relogin`[0m to force relogin
+113.7s 44 [34m[1mwandb[0m: [33mWARNING[0m If you're specifying your api key in code, ensure this code is not shared publicly.
+113.7s 45 [34m[1mwandb[0m: [33mWARNING[0m Consider setting the WANDB_API_KEY environment variable, or running `wandb login` from the command line.
+113.7s 46 [34m[1mwandb[0m: Appending key for api.wandb.ai to your netrc file: /root/.netrc
+114.2s 47 /opt/conda/lib/python3.10/site-packages/transformers/training_args.py:1494: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+114.2s 48 warnings.warn(
+115.3s 49 [34m[1mwandb[0m: [33mWARNING[0m The `run_name` is currently set to the same value as `TrainingArguments.output_dir`. If this was not intended, please specify a different run name by setting the `TrainingArguments.run_name` parameter.
+115.3s 50 [34m[1mwandb[0m: Currently logged in as: [33mlananhmtms1[0m ([33mlananhmtms1-mtms1[0m). Use [1m`wandb login --relogin`[0m to force relogin
+130.9s 51 [34m[1mwandb[0m: wandb version 0.17.5 is available!  To upgrade, please run:
+130.9s 52 [34m[1mwandb[0m:  $ pip install wandb --upgrade
+130.9s 53 [34m[1mwandb[0m: Tracking run with wandb version 0.17.4
+130.9s 54 [34m[1mwandb[0m: Run data is saved locally in [35m[1m/kaggle/working/wandb/run-20240805_061946-6xsf6my3[0m
+130.9s 55 [34m[1mwandb[0m: Run [1m`wandb offline`[0m to turn off syncing.
+130.9s 56 [34m[1mwandb[0m: Syncing run [33m./results-vi-en[0m
+130.9s 57 [34m[1mwandb[0m: ⭐️ View project at [34m[4mhttps://wandb.ai/lananhmtms1-mtms1/huggingface[0m
+130.9s 58 [34m[1mwandb[0m: 🚀 View run at [34m[4mhttps://wandb.ai/lananhmtms1-mtms1/huggingface/runs/6xsf6my3[0m
+133.7s 59 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+133.7s 60 warnings.warn('Was asked to gather along dimension 0, but all '
+463.2s 61 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+463.2s 62 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+465.0s 63 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+465.0s 64 warnings.warn('Was asked to gather along dimension 0, but all '
+704.1s 65 Translated: We're brilliant doctors, and so is he, so the operation is definitely going to work.
+797.8s 66 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+797.8s 67 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+799.6s 68 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+799.6s 69 warnings.warn('Was asked to gather along dimension 0, but all '
+1132.4s 70 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+1132.4s 71 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+1134.3s 72 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+1134.3s 73 warnings.warn('Was asked to gather along dimension 0, but all '
+1373.1s 74 Translated: We're great doctors, and so is he, so the surgery is definitely going to work.
+1467.5s 75 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+1467.5s 76 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+1469.4s 77 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+1469.4s 78 warnings.warn('Was asked to gather along dimension 0, but all '
+1801.8s 79 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+1801.8s 80 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+1803.7s 81 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+1803.7s 82 warnings.warn('Was asked to gather along dimension 0, but all '
+2043.0s 83 Translated: We're great doctors, and so is he, so the surgery is going to work.
+2137.8s 84 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+2137.8s 85 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+2139.7s 86 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+2139.7s 87 warnings.warn('Was asked to gather along dimension 0, but all '
+2473.5s 88 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+2473.5s 89 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+2475.5s 90 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+2475.5s 91 warnings.warn('Was asked to gather along dimension 0, but all '
+2713.8s 92 Translated: We're excellent doctors, and so is he, so the surgery is going to work.
+2808.4s 93 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+2808.4s 94 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+2810.4s 95 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+2810.4s 96 warnings.warn('Was asked to gather along dimension 0, but all '
+3143.7s 97 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+3143.7s 98 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+3145.6s 99 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+3145.6s 100 warnings.warn('Was asked to gather along dimension 0, but all '
+3385.5s 101 Translated: We're excellent doctors, and so is he, so the operation will definitely succeed.
+3479.2s 102 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+3479.2s 103 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+3481.1s 104 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+3481.1s 105 warnings.warn('Was asked to gather along dimension 0, but all '
+3813.5s 106 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+3813.5s 107 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+3815.4s 108 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+3815.4s 109 warnings.warn('Was asked to gather along dimension 0, but all '
+4054.5s 110 Translated: We were excellent doctors, and so was he, so the surgery was going to work.
+4148.7s 111 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+4148.7s 112 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+4150.6s 113 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+4150.6s 114 warnings.warn('Was asked to gather along dimension 0, but all '
+4483.7s 115 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+4483.7s 116 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+4485.6s 117 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+4485.6s 118 warnings.warn('Was asked to gather along dimension 0, but all '
+4725.0s 119 Translated: We're brilliant doctors, and so is he, so the surgery is certainly going to work.
+4819.3s 120 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+4819.3s 121 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+4821.2s 122 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+4821.2s 123 warnings.warn('Was asked to gather along dimension 0, but all '
+5154.5s 124 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+5154.5s 125 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+5156.4s 126 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+5156.4s 127 warnings.warn('Was asked to gather along dimension 0, but all '
+5395.4s 128 Translated: We're excellent doctors, and he's also, so the surgery is going to work.
+5488.8s 129 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+5488.8s 130 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+5490.8s 131 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+5490.8s 132 warnings.warn('Was asked to gather along dimension 0, but all '
+5824.4s 133 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+5824.4s 134 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+5826.3s 135 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+5826.3s 136 warnings.warn('Was asked to gather along dimension 0, but all '
+6065.9s 137 Translated: We're excellent doctors, and so is he, so the operation will definitely work.
+6160.2s 138 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+6160.2s 139 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+6162.2s 140 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+6162.2s 141 warnings.warn('Was asked to gather along dimension 0, but all '
+6495.1s 142 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+6495.1s 143 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+6497.1s 144 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+6497.1s 145 warnings.warn('Was asked to gather along dimension 0, but all '
+6736.8s 146 Translated: We're excellent doctors, and so is he, so the surgery will definitely work.
+6831.1s 147 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+6831.1s 148 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+6833.0s 149 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+6833.0s 150 warnings.warn('Was asked to gather along dimension 0, but all '
+7166.5s 151 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+7166.5s 152 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+7168.4s 153 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+7168.4s 154 warnings.warn('Was asked to gather along dimension 0, but all '
+7407.9s 155 Translated: We're brilliant doctors, and so is he, so the operation is going to work.
+7502.1s 156 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+7502.1s 157 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+7504.0s 158 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+7504.0s 159 warnings.warn('Was asked to gather along dimension 0, but all '
+7837.5s 160 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+7837.5s 161 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+7839.4s 162 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+7839.4s 163 warnings.warn('Was asked to gather along dimension 0, but all '
+8078.2s 164 Translated: We're brilliant doctors, and he's also, so the surgery will surely work.
+8172.4s 165 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+8172.4s 166 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+8174.3s 167 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+8174.3s 168 warnings.warn('Was asked to gather along dimension 0, but all '
+8507.4s 169 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+8507.4s 170 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+8509.3s 171 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+8509.3s 172 warnings.warn('Was asked to gather along dimension 0, but all '
+8748.2s 173 Translated: We're excellent doctors, and so is he, so the surgery will definitely work.
+8842.0s 174 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+8842.0s 175 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+8843.9s 176 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+8843.9s 177 warnings.warn('Was asked to gather along dimension 0, but all '
+9176.2s 178 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+9176.2s 179 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+9178.1s 180 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+9178.1s 181 warnings.warn('Was asked to gather along dimension 0, but all '
+9417.3s 182 Translated: We are brilliant doctors, and so is he, so the operation is going to work.
+9512.1s 183 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+9512.1s 184 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+9514.0s 185 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+9514.0s 186 warnings.warn('Was asked to gather along dimension 0, but all '
+9846.8s 187 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+9846.8s 188 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+9848.7s 189 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+9848.7s 190 warnings.warn('Was asked to gather along dimension 0, but all '
+10087.5s 191 Translated: We were excellent doctors, and so was he, so the surgery was bound to work.
+10182.2s 192 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+10182.2s 193 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+10184.1s 194 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+10184.1s 195 warnings.warn('Was asked to gather along dimension 0, but all '
+10517.6s 196 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+10517.6s 197 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+10519.5s 198 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+10519.5s 199 warnings.warn('Was asked to gather along dimension 0, but all '
+10758.6s 200 Translated: We're brilliant doctors, and so is he, so the surgery will definitely work.
+10853.5s 201 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+10853.5s 202 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+10855.4s 203 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+10855.4s 204 warnings.warn('Was asked to gather along dimension 0, but all '
+11188.1s 205 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+11188.1s 206 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+11190.1s 207 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+11190.1s 208 warnings.warn('Was asked to gather along dimension 0, but all '
+11429.8s 209 Translated: We were brilliant doctors, and so was he, so the surgery was going to work.
+11523.7s 210 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+11523.7s 211 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+11525.6s 212 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+11525.6s 213 warnings.warn('Was asked to gather along dimension 0, but all '
+11859.3s 214 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+11859.3s 215 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+11861.2s 216 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+11861.2s 217 warnings.warn('Was asked to gather along dimension 0, but all '
+12101.6s 218 Translated: We're excellent doctors, and so is he, so the surgery will surely succeed.
+12196.0s 219 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+12196.0s 220 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+12197.9s 221 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+12197.9s 222 warnings.warn('Was asked to gather along dimension 0, but all '
+12531.6s 223 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+12531.6s 224 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+12533.5s 225 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+12533.5s 226 warnings.warn('Was asked to gather along dimension 0, but all '
+12773.0s 227 Translated: We're excellent doctors, and neither is he, so the surgery is going to be successful.
+12867.5s 228 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+12867.5s 229 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+12869.4s 230 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+12869.4s 231 warnings.warn('Was asked to gather along dimension 0, but all '
+13202.8s 232 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+13202.8s 233 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+13204.7s 234 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+13204.7s 235 warnings.warn('Was asked to gather along dimension 0, but all '
+13444.6s 236 Translated: We're brilliant doctors, and he's also, so the surgery is certainly going to work.
+13539.2s 237 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+13539.2s 238 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+13541.2s 239 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+13541.2s 240 warnings.warn('Was asked to gather along dimension 0, but all '
+13874.0s 241 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+13874.0s 242 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+13875.9s 243 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+13875.9s 244 warnings.warn('Was asked to gather along dimension 0, but all '
+14115.6s 245 Translated: We're excellent doctors, and so is he, so the surgery is certainly going to work.
+14209.7s 246 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+14209.7s 247 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+14211.7s 248 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+14211.7s 249 warnings.warn('Was asked to gather along dimension 0, but all '
+14545.1s 250 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+14545.1s 251 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+14547.0s 252 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+14547.0s 253 warnings.warn('Was asked to gather along dimension 0, but all '
+14786.0s 254 Translated: We're brilliant doctors, and so is he, so the surgery is going to work.
+14880.6s 255 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+14880.6s 256 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+14882.5s 257 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+14882.5s 258 warnings.warn('Was asked to gather along dimension 0, but all '
+15215.8s 259 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+15215.8s 260 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+15217.7s 261 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+15217.7s 262 warnings.warn('Was asked to gather along dimension 0, but all '
+15457.2s 263 Translated: We're very good doctors, and so is he, so the surgery is going to work.
+15551.9s 264 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+15551.9s 265 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+15553.8s 266 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+15553.8s 267 warnings.warn('Was asked to gather along dimension 0, but all '
+15886.3s 268 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+15886.3s 269 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+15888.2s 270 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+15888.2s 271 warnings.warn('Was asked to gather along dimension 0, but all '
+16128.0s 272 Translated: We're brilliant doctors, and so is he, so the surgery will probably work.
+16221.8s 273 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+16221.8s 274 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+16223.8s 275 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+16223.8s 276 warnings.warn('Was asked to gather along dimension 0, but all '
+16557.2s 277 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+16557.2s 278 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+16559.1s 279 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+16559.1s 280 warnings.warn('Was asked to gather along dimension 0, but all '
+16799.3s 281 Translated: We're excellent doctors, and so is he, so the surgery is certainly going to work.
+16893.2s 282 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+16893.2s 283 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+16895.1s 284 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+16895.1s 285 warnings.warn('Was asked to gather along dimension 0, but all '
+17228.3s 286 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+17228.3s 287 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+17230.2s 288 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+17230.2s 289 warnings.warn('Was asked to gather along dimension 0, but all '
+17469.9s 290 Translated: We're excellent doctors, and so is he, so the surgery is definitely going to work.
+17563.8s 291 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+17563.8s 292 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+17565.7s 293 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+17565.7s 294 warnings.warn('Was asked to gather along dimension 0, but all '
+17898.7s 295 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+17898.7s 296 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+17900.7s 297 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+17900.7s 298 warnings.warn('Was asked to gather along dimension 0, but all '
+18139.5s 299 Translated: We're excellent doctors, and so is he, so the operation will surely work.
+18234.1s 300 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+18234.1s 301 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+18236.0s 302 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+18236.0s 303 warnings.warn('Was asked to gather along dimension 0, but all '
+18570.0s 304 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+18570.0s 305 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+18571.9s 306 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+18571.9s 307 warnings.warn('Was asked to gather along dimension 0, but all '
+18811.4s 308 Translated: We're excellent doctors, and so is he, so the operation is bound to be successful.
+18905.3s 309 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+18905.3s 310 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+18907.3s 311 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+18907.3s 312 warnings.warn('Was asked to gather along dimension 0, but all '
+19240.7s 313 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+19240.7s 314 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+19242.7s 315 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+19242.7s 316 warnings.warn('Was asked to gather along dimension 0, but all '
+19482.7s 317 Translated: We're brilliant doctors, and so is he, so the operation will surely work.
+19577.2s 318 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+19577.2s 319 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+19579.1s 320 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+19579.1s 321 warnings.warn('Was asked to gather along dimension 0, but all '
+19912.7s 322 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+19912.7s 323 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+19914.6s 324 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+19914.6s 325 warnings.warn('Was asked to gather along dimension 0, but all '
+20153.9s 326 Translated: We're excellent doctors, and so is he, and so the operation will work.
+20247.9s 327 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+20247.9s 328 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+20249.9s 329 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+20249.9s 330 warnings.warn('Was asked to gather along dimension 0, but all '
+20583.0s 331 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+20583.0s 332 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+20585.0s 333 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+20585.0s 334 warnings.warn('Was asked to gather along dimension 0, but all '
+20824.6s 335 Translated: We're excellent doctors, and so is he, so the operation will surely succeed.
+20918.9s 336 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+20918.9s 337 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+20920.8s 338 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+20920.8s 339 warnings.warn('Was asked to gather along dimension 0, but all '
+21254.3s 340 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+21254.3s 341 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+21256.2s 342 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+21256.2s 343 warnings.warn('Was asked to gather along dimension 0, but all '
+21496.0s 344 Translated: We're excellent doctors, and so is he, so the surgery will work.
+21589.8s 345 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+21589.8s 346 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+21591.7s 347 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+21591.7s 348 warnings.warn('Was asked to gather along dimension 0, but all '
+21925.1s 349 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+21925.1s 350 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+21927.1s 351 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+21927.1s 352 warnings.warn('Was asked to gather along dimension 0, but all '
+22166.0s 353 Translated: We're brilliant doctors, and so is he, so the operation will work.
+22260.3s 354 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+22260.3s 355 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+22262.3s 356 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+22262.3s 357 warnings.warn('Was asked to gather along dimension 0, but all '
+22595.4s 358 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+22595.4s 359 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+22597.4s 360 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+22597.4s 361 warnings.warn('Was asked to gather along dimension 0, but all '
+22836.5s 362 Translated: We were excellent doctors, and so was he, so the surgery was going to work.
+22930.9s 363 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+22930.9s 364 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+22932.9s 365 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+22932.9s 366 warnings.warn('Was asked to gather along dimension 0, but all '
+23266.3s 367 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+23266.3s 368 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+23268.2s 369 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+23268.2s 370 warnings.warn('Was asked to gather along dimension 0, but all '
+23508.3s 371 Translated: We're very good doctors, and so is he, so the operation will definitely work.
+23602.6s 372 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+23602.6s 373 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+23604.5s 374 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+23604.5s 375 warnings.warn('Was asked to gather along dimension 0, but all '
+23937.9s 376 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+23937.9s 377 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+23939.8s 378 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+23939.8s 379 warnings.warn('Was asked to gather along dimension 0, but all '
+24179.4s 380 Translated: We are excellent doctors, and so is he, so the surgery will surely succeed.
+24273.4s 381 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+24273.4s 382 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+24275.3s 383 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+24275.3s 384 warnings.warn('Was asked to gather along dimension 0, but all '
+24608.7s 385 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+24608.7s 386 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+24610.6s 387 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+24610.6s 388 warnings.warn('Was asked to gather along dimension 0, but all '
+24850.4s 389 Translated: We're excellent doctors, and so is he, so the surgery is bound to be a success.
+24945.4s 390 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+24945.4s 391 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+24947.4s 392 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+24947.4s 393 warnings.warn('Was asked to gather along dimension 0, but all '
+25281.8s 394 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+25281.8s 395 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+25283.7s 396 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+25283.7s 397 warnings.warn('Was asked to gather along dimension 0, but all '
+25523.0s 398 Translated: We're excellent doctors, and so is he, so the surgery is going to work.
+25617.7s 399 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+25617.7s 400 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+25619.6s 401 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+25619.6s 402 warnings.warn('Was asked to gather along dimension 0, but all '
+25953.7s 403 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+25953.7s 404 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+25955.6s 405 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+25955.6s 406 warnings.warn('Was asked to gather along dimension 0, but all '
+26195.6s 407 Translated: We're excellent doctors, and so is he, so the surgery is bound to work.
+26289.6s 408 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+26289.6s 409 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+26291.5s 410 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+26291.5s 411 warnings.warn('Was asked to gather along dimension 0, but all '
+26625.3s 412 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+26625.3s 413 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+26627.2s 414 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+26627.2s 415 warnings.warn('Was asked to gather along dimension 0, but all '
+26867.6s 416 Translated: We were excellent doctors, and so was he, so the surgery was bound to succeed.
+26962.2s 417 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+26962.2s 418 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+26964.1s 419 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+26964.1s 420 warnings.warn('Was asked to gather along dimension 0, but all '
+27298.3s 421 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+27298.3s 422 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+27300.2s 423 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+27300.2s 424 warnings.warn('Was asked to gather along dimension 0, but all '
+27540.6s 425 Translated: We're excellent doctors, and so is he, so the surgery will work.
+27634.8s 426 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+27634.8s 427 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+27636.8s 428 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+27636.8s 429 warnings.warn('Was asked to gather along dimension 0, but all '
+27971.2s 430 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+27971.2s 431 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+27973.1s 432 /opt/conda/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+27973.1s 433 warnings.warn('Was asked to gather along dimension 0, but all '
+28022.0s 434 Some non-default generation parameters are set in the model config. These should go into a GenerationConfig file (https://huggingface.co/docs/transformers/generation_strategies#save-a-custom-decoding-strategy-with-your-model) instead. This warning will be raised to an exception in v4.41.
+28022.0s 435 Non-default generation parameters: {'max_length': 512, 'num_beams': 6, 'bad_words_ids': [[53738]], 'forced_eos_token_id': 0}
+28029.5s 436 wandb: - 0.004 MB of 0.004 MB uploaded/opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+28029.5s 437 warn(
+28029.5s 438 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+28029.6s 439 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+28030.2s 440 [NbConvertApp] Writing 249158 bytes to __notebook__.ipynb
+28031.8s 441 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+28031.8s 442 warn(
+28031.8s 443 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+28031.8s 444 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+28032.8s 445 [NbConvertApp] Writing 503311 bytes to __results__.html
