@@ -14,5 +14,5 @@
 - đã thêm transformer vào trong phương thức translation, đầu vào, đầu ra giữ nguyên:
     - kind: thêm 1 biến transformer
     - model cũng như vocab cần để trong folder model (cùng vị trí với main.py)
-    - Link model, vocab: (Model+Vocab)[https://drive.google.com/drive/folders/1fvFyClDj9HWsEZSNoNWugNgVdtiIUPFm?usp=sharing]
+    - Link model, vocab: [Model+Vocab](https://drive.google.com/drive/folders/1khpuzDEl6e0j7I6-nsN1YMR-Me7B2t6W?usp=sharing)
 - có ví dụ cụ thể trong main.py
