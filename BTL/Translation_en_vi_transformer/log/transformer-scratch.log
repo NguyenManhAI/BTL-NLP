@@ -1,0 +1,254 @@
+8.8s 1 Collecting sacrebleu
+8.8s 2 Downloading sacrebleu-2.4.2-py3-none-any.whl.metadata (58 kB)
+8.8s 3 [?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/58.0 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m58.0/58.0 kB[0m [31m2.7 MB/s[0m eta [36m0:00:00[0m
+8.9s 4 [?25hCollecting portalocker (from sacrebleu)
+8.9s 5 Downloading portalocker-2.10.1-py3-none-any.whl.metadata (8.5 kB)
+8.9s 6 Requirement already satisfied: regex in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (2023.12.25)
+8.9s 7 Requirement already satisfied: tabulate>=0.8.9 in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (0.9.0)
+8.9s 8 Requirement already satisfied: numpy>=1.17 in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (1.26.4)
+8.9s 9 Requirement already satisfied: colorama in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (0.4.6)
+8.9s 10 Requirement already satisfied: lxml in /opt/conda/lib/python3.10/site-packages (from sacrebleu) (5.2.2)
+9.0s 11 Downloading sacrebleu-2.4.2-py3-none-any.whl (106 kB)
+9.0s 12 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/106.7 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m106.7/106.7 kB[0m [31m5.7 MB/s[0m eta [36m0:00:00[0m
+9.0s 13 [?25hDownloading portalocker-2.10.1-py3-none-any.whl (18 kB)
+19.8s 14 Installing collected packages: portalocker, sacrebleu
+20.1s 15 Successfully installed portalocker-2.10.1 sacrebleu-2.4.2
+21.4s 16 Collecting rouge_score
+21.5s 17 Downloading rouge_score-0.1.2.tar.gz (17 kB)
+22.5s 18 Preparing metadata (setup.py) ... [?25l- done
+22.5s 19 [?25hRequirement already satisfied: absl-py in /opt/conda/lib/python3.10/site-packages (from rouge_score) (1.4.0)
+22.5s 20 Requirement already satisfied: nltk in /opt/conda/lib/python3.10/site-packages (from rouge_score) (3.2.4)
+22.5s 21 Requirement already satisfied: numpy in /opt/conda/lib/python3.10/site-packages (from rouge_score) (1.26.4)
+22.5s 22 Requirement already satisfied: six>=1.14.0 in /opt/conda/lib/python3.10/site-packages (from rouge_score) (1.16.0)
+22.6s 23 Building wheels for collected packages: rouge_score
+23.9s 24 Building wheel for rouge_score (setup.py) ... [?25l- \ done
+23.9s 25 [?25h  Created wheel for rouge_score: filename=rouge_score-0.1.2-py3-none-any.whl size=24934 sha256=ed16ec7d76f2c23c099684feb5cb007f77b14876267d0424da52ec34b06ad122
+23.9s 26 Stored in directory: /root/.cache/pip/wheels/5f/dd/89/461065a73be61a532ff8599a28e9beef17985c9e9c31e541b4
+24.0s 27 Successfully built rouge_score
+34.0s 28 Installing collected packages: rouge_score
+34.2s 29 Successfully installed rouge_score-0.1.2
+35.6s 30 Collecting underthesea
+35.6s 31 Downloading underthesea-6.8.4-py3-none-any.whl.metadata (15 kB)
+35.7s 32 Requirement already satisfied: Click>=6.0 in /opt/conda/lib/python3.10/site-packages (from underthesea) (8.1.7)
+35.7s 33 Collecting python-crfsuite>=0.9.6 (from underthesea)
+35.7s 34 Downloading python_crfsuite-0.9.10-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+35.8s 35 Requirement already satisfied: nltk in /opt/conda/lib/python3.10/site-packages (from underthesea) (3.2.4)
+35.8s 36 Requirement already satisfied: tqdm in /opt/conda/lib/python3.10/site-packages (from underthesea) (4.66.4)
+35.8s 37 Requirement already satisfied: requests in /opt/conda/lib/python3.10/site-packages (from underthesea) (2.32.3)
+35.8s 38 Requirement already satisfied: joblib in /opt/conda/lib/python3.10/site-packages (from underthesea) (1.4.2)
+35.8s 39 Requirement already satisfied: scikit-learn in /opt/conda/lib/python3.10/site-packages (from underthesea) (1.2.2)
+35.8s 40 Requirement already satisfied: PyYAML in /opt/conda/lib/python3.10/site-packages (from underthesea) (6.0.1)
+35.9s 41 Collecting underthesea-core==1.0.4 (from underthesea)
+35.9s 42 Downloading underthesea_core-1.0.4-cp310-cp310-manylinux2010_x86_64.whl.metadata (1.7 kB)
+35.9s 43 Requirement already satisfied: six in /opt/conda/lib/python3.10/site-packages (from nltk->underthesea) (1.16.0)
+35.9s 44 Requirement already satisfied: charset-normalizer<4,>=2 in /opt/conda/lib/python3.10/site-packages (from requests->underthesea) (3.3.2)
+35.9s 45 Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.10/site-packages (from requests->underthesea) (3.6)
+35.9s 46 Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/lib/python3.10/site-packages (from requests->underthesea) (1.26.18)
+35.9s 47 Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.10/site-packages (from requests->underthesea) (2024.7.4)
+36.0s 48 Requirement already satisfied: numpy>=1.17.3 in /opt/conda/lib/python3.10/site-packages (from scikit-learn->underthesea) (1.26.4)
+36.0s 49 Requirement already satisfied: scipy>=1.3.2 in /opt/conda/lib/python3.10/site-packages (from scikit-learn->underthesea) (1.11.4)
+36.0s 50 Requirement already satisfied: threadpoolctl>=2.0.0 in /opt/conda/lib/python3.10/site-packages (from scikit-learn->underthesea) (3.2.0)
+36.1s 51 Downloading underthesea-6.8.4-py3-none-any.whl (20.9 MB)
+36.3s 52 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/20.9 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.9/20.9 MB[0m [31m58.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.6/20.9 MB[0m [31m109.4 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━[0m [32m13.6/20.9 MB[0m [31m168.1 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━[0m [32m19.7/20.9 MB[0m [31m174.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m20.9/20.9 MB[0m [31m169.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m20.9/20.9 MB[0m [31m169.7 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m20.9/20.9 MB[0m [31m78.5 MB/s[0m eta [36m0:00:00[0m
+36.3s 53 [?25hDownloading underthesea_core-1.0.4-cp310-cp310-manylinux2010_x86_64.whl (657 kB)
+36.3s 54 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/657.8 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m657.8/657.8 kB[0m [31m35.2 MB/s[0m eta [36m0:00:00[0m
+36.3s 55 [?25hDownloading python_crfsuite-0.9.10-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+36.4s 56 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/1.1 MB[0m [31m43.6 MB/s[0m eta [36m0:00:00[0m
+46.4s 57 [?25hInstalling collected packages: underthesea-core, python-crfsuite, underthesea
+47.2s 58 Successfully installed python-crfsuite-0.9.10 underthesea-6.8.4 underthesea-core-1.0.4
+47.7s 59 Note: you may need to restart the kernel to use updated packages.
+61.3s 60 /opt/conda/lib/python3.10/site-packages/torch/nn/modules/transformer.py:282: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+61.3s 61 warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+65.3s 62 /opt/conda/lib/python3.10/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+65.3s 63 warnings.warn(
+117.3s 64 Step: 21.322%, Train loss: 8.202, Val loss: 6.663, time: 0p52s
+169.5s 65 Step: 42.644%, Train loss: 7.419, Val loss: 6.478, time: 0p52s
+220.3s 66 Step: 63.966%, Train loss: 7.079, Val loss: 6.394, time: 0p50s
+269.9s 67 Step: 85.288%, Train loss: 6.877, Val loss: 6.215, time: 0p49s
+546.3s 68 Và là là là là là là là là là
+546.3s 69 Epoch: 1, Train loss: 6.769, Val loss: 6.157, Bleu: 0.000, Ter: 115.626, CHRF: 1.976, Rough1: 0.008, RoughL: 0.008, Epoch time: 481.781s
+597.5s 70 Step: 21.322%, Train loss: 6.064, Val loss: 6.093, time: 0p51s
+649.3s 71 Step: 42.644%, Train loss: 6.050, Val loss: 6.030, time: 0p51s
+699.9s 72 Step: 63.966%, Train loss: 6.008, Val loss: 6.075, time: 0p50s
+749.5s 73 Step: 85.288%, Train loss: 5.972, Val loss: 5.976, time: 0p49s
+1014.0s 74 Và bạn là một người .
+1014.0s 75 Epoch: 2, Train loss: 5.941, Val loss: 5.945, Bleu: 0.000, Ter: 117.615, CHRF: 3.267, Rough1: 0.019, RoughL: 0.019, Epoch time: 467.688s
+1065.1s 76 Step: 21.322%, Train loss: 5.758, Val loss: 5.902, time: 0p51s
+1117.1s 77 Step: 42.644%, Train loss: 5.753, Val loss: 5.873, time: 0p51s
+1167.5s 78 Step: 63.966%, Train loss: 5.717, Val loss: 5.907, time: 0p50s
+1217.0s 79 Step: 85.288%, Train loss: 5.685, Val loss: 5.773, time: 0p49s
+1468.9s 80 Và tôi không ?
+1468.9s 81 Epoch: 3, Train loss: 5.659, Val loss: 5.825, Bleu: 0.000, Ter: 118.631, CHRF: 2.901, Rough1: 0.016, RoughL: 0.016, Epoch time: 454.850s
+1519.8s 82 Step: 21.322%, Train loss: 5.536, Val loss: 5.783, time: 0p50s
+1571.3s 83 Step: 42.644%, Train loss: 5.542, Val loss: 5.762, time: 0p51s
+1621.8s 84 Step: 63.966%, Train loss: 5.510, Val loss: 5.735, time: 0p50s
+1671.2s 85 Step: 85.288%, Train loss: 5.485, Val loss: 5.690, time: 0p49s
+1913.1s 86 Và tôi không ?
+1913.1s 87 Epoch: 4, Train loss: 5.463, Val loss: 5.704, Bleu: 0.000, Ter: 117.758, CHRF: 2.755, Rough1: 0.016, RoughL: 0.016, Epoch time: 444.210s
+1964.3s 88 Step: 21.322%, Train loss: 5.369, Val loss: 5.644, time: 0p51s
+2016.1s 89 Step: 42.644%, Train loss: 5.375, Val loss: 5.674, time: 0p51s
+2066.6s 90 Step: 63.966%, Train loss: 5.345, Val loss: 5.619, time: 0p50s
+2116.2s 91 Step: 85.288%, Train loss: 5.319, Val loss: 5.614, time: 0p49s
+2339.6s 92 Và tôi đã làm .
+2339.6s 93 Epoch: 5, Train loss: 5.298, Val loss: 5.578, Bleu: 0.000, Ter: 118.445, CHRF: 2.820, Rough1: 0.016, RoughL: 0.016, Epoch time: 426.542s
+2390.8s 94 Step: 21.322%, Train loss: 5.206, Val loss: 5.571, time: 0p51s
+2442.5s 95 Step: 42.644%, Train loss: 5.215, Val loss: 5.570, time: 0p51s
+2493.1s 96 Step: 63.966%, Train loss: 5.188, Val loss: 5.548, time: 0p50s
+2542.5s 97 Step: 85.288%, Train loss: 5.167, Val loss: 5.516, time: 0p49s
+2799.2s 98 Và tôi đã làm .
+2799.2s 99 Epoch: 6, Train loss: 5.148, Val loss: 5.480, Bleu: 0.000, Ter: 119.614, CHRF: 2.906, Rough1: 0.017, RoughL: 0.017, Epoch time: 459.528s
+2850.1s 100 Step: 21.322%, Train loss: 5.072, Val loss: 5.512, time: 0p50s
+2901.8s 101 Step: 42.644%, Train loss: 5.086, Val loss: 5.491, time: 0p51s
+2952.4s 102 Step: 63.966%, Train loss: 5.064, Val loss: 5.489, time: 0p50s
+3001.8s 103 Step: 85.288%, Train loss: 5.045, Val loss: 5.429, time: 0p49s
+3255.8s 104 Và tôi đã làm .
+3255.8s 105 Epoch: 7, Train loss: 5.027, Val loss: 5.424, Bleu: 0.000, Ter: 119.475, CHRF: 3.032, Rough1: 0.018, RoughL: 0.018, Epoch time: 456.665s
+3306.9s 106 Step: 21.322%, Train loss: 4.956, Val loss: 5.448, time: 0p51s
+3358.5s 107 Step: 42.644%, Train loss: 4.973, Val loss: 5.453, time: 0p51s
+3408.9s 108 Step: 63.966%, Train loss: 4.952, Val loss: 5.432, time: 0p50s
+3458.3s 109 Step: 85.288%, Train loss: 4.932, Val loss: 5.372, time: 0p49s
+3715.1s 110 Và đó là một thứ .
+3715.1s 111 Epoch: 8, Train loss: 4.913, Val loss: 5.338, Bleu: 0.000, Ter: 118.407, CHRF: 3.369, Rough1: 0.020, RoughL: 0.020, Epoch time: 459.261s
+3766.2s 112 Step: 21.322%, Train loss: 4.844, Val loss: 5.393, time: 0p51s
+3817.8s 113 Step: 42.644%, Train loss: 4.866, Val loss: 5.379, time: 0p51s
+3868.3s 114 Step: 63.966%, Train loss: 4.847, Val loss: 5.361, time: 0p50s
+3917.7s 115 Step: 85.288%, Train loss: 4.828, Val loss: 5.310, time: 0p49s
+4179.5s 116 Và nó là một thứ .
+4179.5s 117 Epoch: 9, Train loss: 4.808, Val loss: 5.297, Bleu: 0.000, Ter: 117.319, CHRF: 3.121, Rough1: 0.020, RoughL: 0.020, Epoch time: 464.396s
+4230.5s 118 Step: 21.322%, Train loss: 4.740, Val loss: 5.325, time: 0p51s
+4282.2s 119 Step: 42.644%, Train loss: 4.764, Val loss: 5.358, time: 0p51s
+4332.7s 120 Step: 63.966%, Train loss: 4.747, Val loss: 5.284, time: 0p50s
+4382.1s 121 Step: 85.288%, Train loss: 4.728, Val loss: 5.262, time: 0p49s
+4644.0s 122 Và họ đã làm được .
+4644.0s 123 Epoch: 10, Train loss: 4.711, Val loss: 5.245, Bleu: 0.000, Ter: 118.270, CHRF: 3.367, Rough1: 0.021, RoughL: 0.021, Epoch time: 464.559s
+4695.4s 124 Step: 21.322%, Train loss: 4.644, Val loss: 5.289, time: 0p51s
+4747.4s 125 Step: 42.644%, Train loss: 4.669, Val loss: 5.278, time: 0p52s
+4798.3s 126 Step: 63.966%, Train loss: 4.652, Val loss: 5.230, time: 0p50s
+4848.0s 127 Step: 85.288%, Train loss: 4.634, Val loss: 5.223, time: 0p49s
+5115.0s 128 Và đó là một thứ .
+5115.0s 129 Epoch: 11, Train loss: 4.619, Val loss: 5.221, Bleu: 0.000, Ter: 118.888, CHRF: 3.163, Rough1: 0.021, RoughL: 0.021, Epoch time: 470.965s
+5166.2s 130 Step: 21.322%, Train loss: 4.558, Val loss: 5.254, time: 0p51s
+5218.2s 131 Step: 42.644%, Train loss: 4.581, Val loss: 5.232, time: 0p51s
+5269.0s 132 Step: 63.966%, Train loss: 4.561, Val loss: 5.193, time: 0p50s
+5318.8s 133 Step: 85.288%, Train loss: 4.543, Val loss: 5.176, time: 0p49s
+5585.8s 134 Và họ đã bị mất .
+5585.8s 135 Epoch: 12, Train loss: 4.528, Val loss: 5.181, Bleu: 0.000, Ter: 119.485, CHRF: 3.076, Rough1: 0.020, RoughL: 0.020, Epoch time: 470.803s
+5637.0s 136 Step: 21.322%, Train loss: 4.471, Val loss: 5.214, time: 0p51s
+5689.0s 137 Step: 42.644%, Train loss: 4.491, Val loss: 5.211, time: 0p51s
+5739.7s 138 Step: 63.966%, Train loss: 4.471, Val loss: 5.178, time: 0p50s
+5789.3s 139 Step: 85.288%, Train loss: 4.452, Val loss: 5.144, time: 0p49s
+6056.2s 140 Chúng ta đã làm được .
+6056.2s 141 Epoch: 13, Train loss: 4.439, Val loss: 5.160, Bleu: 0.000, Ter: 118.703, CHRF: 3.752, Rough1: 0.025, RoughL: 0.025, Epoch time: 470.417s
+6107.6s 142 Step: 21.322%, Train loss: 4.374, Val loss: 5.166, time: 0p51s
+6159.5s 143 Step: 42.644%, Train loss: 4.394, Val loss: 5.152, time: 0p51s
+6210.2s 144 Step: 63.966%, Train loss: 4.377, Val loss: 5.161, time: 0p50s
+6259.9s 145 Step: 85.288%, Train loss: 4.361, Val loss: 5.125, time: 0p49s
+6523.9s 146 Chúng tôi đã làm được .
+6523.9s 147 Epoch: 14, Train loss: 4.350, Val loss: 5.109, Bleu: 0.000, Ter: 118.007, CHRF: 4.421, Rough1: 0.028, RoughL: 0.028, Epoch time: 467.668s
+6575.3s 148 Step: 21.322%, Train loss: 4.284, Val loss: 5.136, time: 0p51s
+6627.3s 149 Step: 42.644%, Train loss: 4.307, Val loss: 5.158, time: 0p51s
+6677.9s 150 Step: 63.966%, Train loss: 4.290, Val loss: 5.110, time: 0p50s
+6727.5s 151 Step: 85.288%, Train loss: 4.273, Val loss: 5.108, time: 0p49s
+6987.4s 152 Chúng tôi đã bị mất .
+6987.4s 153 Epoch: 15, Train loss: 4.260, Val loss: 5.037, Bleu: 0.000, Ter: 118.338, CHRF: 4.579, Rough1: 0.029, RoughL: 0.029, Epoch time: 463.444s
+7038.5s 154 Step: 21.322%, Train loss: 4.174, Val loss: 5.070, time: 0p51s
+7090.2s 155 Step: 42.644%, Train loss: 4.193, Val loss: 5.096, time: 0p51s
+7140.7s 156 Step: 63.966%, Train loss: 4.170, Val loss: 5.012, time: 0p50s
+7190.2s 157 Step: 85.288%, Train loss: 4.152, Val loss: 5.026, time: 0p49s
+7446.1s 158 Chúng tôi đã bị mất .
+7446.1s 159 Epoch: 16, Train loss: 4.136, Val loss: 4.964, Bleu: 0.000, Ter: 117.853, CHRF: 5.226, Rough1: 0.032, RoughL: 0.032, Epoch time: 458.699s
+7496.9s 160 Step: 21.322%, Train loss: 4.042, Val loss: 4.973, time: 0p50s
+7548.5s 161 Step: 42.644%, Train loss: 4.069, Val loss: 5.065, time: 0p51s
+7598.9s 162 Step: 63.966%, Train loss: 4.044, Val loss: 4.954, time: 0p50s
+7648.3s 163 Step: 85.288%, Train loss: 4.026, Val loss: 4.945, time: 0p49s
+7905.5s 164 Chúng tôi đã bị mất .
+7905.5s 165 Epoch: 17, Train loss: 4.009, Val loss: 4.881, Bleu: 0.000, Ter: 118.015, CHRF: 5.203, Rough1: 0.033, RoughL: 0.033, Epoch time: 459.469s
+7956.3s 166 Step: 21.322%, Train loss: 3.907, Val loss: 4.869, time: 0p50s
+8007.9s 167 Step: 42.644%, Train loss: 3.935, Val loss: 4.983, time: 0p51s
+8058.2s 168 Step: 63.966%, Train loss: 3.908, Val loss: 4.880, time: 0p50s
+8107.4s 169 Step: 85.288%, Train loss: 3.890, Val loss: 4.864, time: 0p49s
+8366.9s 170 Chúng ta đều là người đàn ông .
+8366.9s 171 Epoch: 18, Train loss: 3.870, Val loss: 4.764, Bleu: 0.000, Ter: 118.659, CHRF: 4.797, Rough1: 0.030, RoughL: 0.030, Epoch time: 461.416s
+8417.9s 172 Step: 21.322%, Train loss: 3.771, Val loss: 4.794, time: 0p50s
+8469.7s 173 Step: 42.644%, Train loss: 3.799, Val loss: 4.891, time: 0p51s
+8520.2s 174 Step: 63.966%, Train loss: 3.766, Val loss: 4.858, time: 0p50s
+8569.6s 175 Step: 85.288%, Train loss: 3.745, Val loss: 4.794, time: 0p49s
+8829.3s 176 Chúng ta đều là người đàn ông .
+8829.3s 177 Epoch: 19, Train loss: 3.724, Val loss: 4.686, Bleu: 0.000, Ter: 118.646, CHRF: 4.726, Rough1: 0.030, RoughL: 0.030, Epoch time: 462.371s
+8880.0s 178 Step: 21.322%, Train loss: 3.635, Val loss: 4.744, time: 0p50s
+8931.4s 179 Step: 42.644%, Train loss: 3.660, Val loss: 4.802, time: 0p51s
+8981.8s 180 Step: 63.966%, Train loss: 3.624, Val loss: 4.743, time: 0p50s
+9031.3s 181 Step: 85.288%, Train loss: 3.604, Val loss: 4.700, time: 0p49s
+9292.5s 182 Chúng ta đều là người đàn ông .
+9292.5s 183 Epoch: 20, Train loss: 3.582, Val loss: 4.607, Bleu: 0.000, Ter: 118.962, CHRF: 4.898, Rough1: 0.031, RoughL: 0.031, Epoch time: 463.159s
+9343.4s 184 Step: 21.322%, Train loss: 3.507, Val loss: 4.703, time: 0p50s
+9394.9s 185 Step: 42.644%, Train loss: 3.529, Val loss: 4.722, time: 0p51s
+9445.2s 186 Step: 63.966%, Train loss: 3.494, Val loss: 4.716, time: 0p50s
+9494.5s 187 Step: 85.288%, Train loss: 3.475, Val loss: 4.630, time: 0p49s
+9751.0s 188 Chúng ta đều là người đàn ông .
+9751.0s 189 Epoch: 21, Train loss: 3.452, Val loss: 4.582, Bleu: 0.000, Ter: 118.642, CHRF: 4.834, Rough1: 0.031, RoughL: 0.031, Epoch time: 458.568s
+9801.9s 190 Step: 21.322%, Train loss: 3.386, Val loss: 4.632, time: 0p50s
+9853.5s 191 Step: 42.644%, Train loss: 3.402, Val loss: 4.629, time: 0p51s
+9903.9s 192 Step: 63.966%, Train loss: 3.365, Val loss: 4.662, time: 0p50s
+9953.0s 193 Step: 85.288%, Train loss: 3.348, Val loss: 4.538, time: 0p49s
+10208.3s 194 Chúng ta đều là người Mỹ .
+10208.3s 195 Epoch: 22, Train loss: 3.324, Val loss: 4.534, Bleu: 0.000, Ter: 118.765, CHRF: 5.051, Rough1: 0.032, RoughL: 0.032, Epoch time: 457.212s
+10259.0s 196 Step: 21.322%, Train loss: 3.258, Val loss: 4.573, time: 0p50s
+10310.5s 197 Step: 42.644%, Train loss: 3.274, Val loss: 4.584, time: 0p51s
+10361.2s 198 Step: 63.966%, Train loss: 3.233, Val loss: 4.634, time: 0p50s
+10410.5s 199 Step: 85.288%, Train loss: 3.219, Val loss: 4.516, time: 0p49s
+10659.5s 200 Chúng ta đều là người Mỹ .
+10659.5s 201 Epoch: 23, Train loss: 3.195, Val loss: 4.528, Bleu: 0.000, Ter: 118.971, CHRF: 4.982, Rough1: 0.032, RoughL: 0.032, Epoch time: 451.261s
+10710.3s 202 Step: 21.322%, Train loss: 3.130, Val loss: 4.539, time: 0p50s
+10761.6s 203 Step: 42.644%, Train loss: 3.138, Val loss: 4.533, time: 0p51s
+10811.9s 204 Step: 63.966%, Train loss: 3.097, Val loss: 4.625, time: 0p50s
+10861.4s 205 Step: 85.288%, Train loss: 3.085, Val loss: 4.453, time: 0p49s
+11111.1s 206 Chúng ta đều là người Mỹ .
+11111.1s 207 Epoch: 24, Train loss: 3.062, Val loss: 4.504, Bleu: 0.000, Ter: 118.565, CHRF: 5.193, Rough1: 0.033, RoughL: 0.033, Epoch time: 451.563s
+11161.9s 208 Step: 21.322%, Train loss: 2.990, Val loss: 4.590, time: 0p50s
+11213.2s 209 Step: 42.644%, Train loss: 3.007, Val loss: 4.512, time: 0p51s
+11263.5s 210 Step: 63.966%, Train loss: 2.971, Val loss: 4.550, time: 0p50s
+11312.7s 211 Step: 85.288%, Train loss: 2.957, Val loss: 4.402, time: 0p49s
+11571.9s 212 Chúng ta đều là người Mỹ .
+11571.9s 213 Epoch: 25, Train loss: 2.933, Val loss: 4.477, Bleu: 0.000, Ter: 119.301, CHRF: 4.786, Rough1: 0.031, RoughL: 0.031, Epoch time: 460.783s
+11622.7s 214 Step: 21.322%, Train loss: 2.865, Val loss: 4.517, time: 0p50s
+11674.1s 215 Step: 42.644%, Train loss: 2.879, Val loss: 4.505, time: 0p51s
+11724.4s 216 Step: 63.966%, Train loss: 2.849, Val loss: 4.436, time: 0p50s
+11773.7s 217 Step: 85.288%, Train loss: 2.838, Val loss: 4.359, time: 0p49s
+12032.9s 218 Chúng ta đều là người Anh .
+12032.9s 219 Epoch: 26, Train loss: 2.815, Val loss: 4.459, Bleu: 0.000, Ter: 118.969, CHRF: 4.947, Rough1: 0.033, RoughL: 0.033, Epoch time: 460.999s
+12083.8s 220 Step: 21.322%, Train loss: 2.775, Val loss: 4.382, time: 0p50s
+12135.4s 221 Step: 42.644%, Train loss: 2.771, Val loss: 4.465, time: 0p51s
+12185.9s 222 Step: 63.966%, Train loss: 2.734, Val loss: 4.435, time: 0p50s
+12235.1s 223 Step: 85.288%, Train loss: 2.724, Val loss: 4.336, time: 0p49s
+12485.5s 224 Tất cả đều là bác sĩ ,
+12485.5s 225 Epoch: 27, Train loss: 2.702, Val loss: 4.423, Bleu: 0.000, Ter: 118.807, CHRF: 5.049, Rough1: 0.034, RoughL: 0.034, Epoch time: 452.668s
+12536.7s 226 Step: 21.322%, Train loss: 2.666, Val loss: 4.399, time: 0p51s
+12588.4s 227 Step: 42.644%, Train loss: 2.657, Val loss: 4.356, time: 0p51s
+12638.8s 228 Step: 63.966%, Train loss: 2.615, Val loss: 4.448, time: 0p50s
+12688.2s 229 Step: 85.288%, Train loss: 2.605, Val loss: 4.351, time: 0p49s
+12931.5s 230 Tất cả đều là bác sĩ ,
+12931.5s 231 Epoch: 28, Train loss: 2.588, Val loss: 4.460, Bleu: 0.000, Ter: 119.036, CHRF: 4.603, Rough1: 0.031, RoughL: 0.031, Epoch time: 445.937s
+12982.5s 232 Step: 21.322%, Train loss: 2.553, Val loss: 4.396, time: 0p50s
+13034.0s 233 Step: 42.644%, Train loss: 2.541, Val loss: 4.379, time: 0p51s
+13084.3s 234 Step: 63.966%, Train loss: 2.495, Val loss: 4.457, time: 0p50s
+13133.4s 235 Step: 85.288%, Train loss: 2.486, Val loss: 4.371, time: 0p49s
+13382.4s 236 Tất cả đều là bác sĩ .
+13382.4s 237 Epoch: 29, Train loss: 2.468, Val loss: 4.488, Bleu: 0.000, Ter: 119.455, CHRF: 4.418, Rough1: 0.030, RoughL: 0.030, Epoch time: 450.957s
+13433.7s 238 Step: 21.322%, Train loss: 2.426, Val loss: 4.451, time: 0p51s
+13485.6s 239 Step: 42.644%, Train loss: 2.419, Val loss: 4.389, time: 0p51s
+13536.4s 240 Step: 63.966%, Train loss: 2.378, Val loss: 4.416, time: 0p50s
+13586.0s 241 Step: 85.288%, Train loss: 2.371, Val loss: 4.359, time: 0p49s
+13840.6s 242 Chúng ta đều là bác sĩ .
+13840.6s 243 Epoch: 30, Train loss: 2.356, Val loss: 4.498, Bleu: 0.000, Ter: 119.159, CHRF: 4.405, Rough1: 0.030, RoughL: 0.030, Epoch time: 458.029s
+13841.2s 244 Chúng ta đều là bác sĩ .
+13846.9s 245 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+13846.9s 246 warn(
+13846.9s 247 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+13847.0s 248 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+13847.4s 249 [NbConvertApp] Writing 53494 bytes to __notebook__.ipynb
+13849.0s 250 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+13849.0s 251 warn(
+13849.0s 252 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+13849.0s 253 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+13850.1s 254 [NbConvertApp] Writing 382051 bytes to __results__.html
